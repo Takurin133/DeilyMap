@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      DailyMap 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="mapId" style="width: 100%; height: 100%">
+  </div>
+</ion-content>
+<ion-fab (click)="presentModal()" button="true" style="top:540px;" horizontal="end" vertical="bottom" slot="fixed">
+  <ion-fab-button color="danger">
+    <ion-icon  name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+<ion-footer color="success">
+  <ion-small> @2020 5/30~5/31 SpaceApp Hackeathon COVID19</ion-small>
+</ion-footer>

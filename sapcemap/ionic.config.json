@@ -1,0 +1,7 @@
+{
+  "name": "sapcemap",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

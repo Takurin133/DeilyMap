@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input color="tertiary" placeholder="匿名"></ion-input>
+  <ion-input placeholder="日付"></ion-input>
+  <ion-textarea cols="30" placeholder="ひとこと"></ion-textarea>
+  <input type="file" />
+  <ion-button (click)="pushFirestore()" router-link="./">
+    アップロード
+    <ion-icon name="cloud-upload-outline"></ion-icon>
+  </ion-button>
+</ion-content>
